@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="es-419">
+
+    <head>
+ 
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width">
+        <title> El mas mejor encriptador de texto</title>
+        <link rel="stylesheet" href="reset/reset.css">
+        <link rel="stylesheet" href="Css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    
+
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <div class="logo">
+                    <h1><h2 class="nonbre-alura">Bienvenidos a nuestro encriptador!</h2></h1>
+                </div>
+
+                <div class="nombre-encriptador">
+                    <h2 class="nombre-encriptador">Encriptador de Texto</h2>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <img class="imagen" src="./Imagenes/imagen2.png">
+
+            <section class="bloque1">  
+
+                <label for="texto-encriptar"><input type="text" class="texto-encriptar" style="text-transform:lowercase;" value="" required placeholder="Ingrese el texto que le gustaria Encriptar"></label>
+                                               
+                <h3 class="aviso"> Solo letras minusculas y sin acentos, porfavor </h3>
+                
+                <div class="botones">
+
+                    <button type="button" class="encriptar" onclick="btnencriptar()">Encriptar</button>
+                    
+                    <button type="button" class="desencriptar" onclick="btndesencriptar()">Desencriptar</button>
+
+                    <button type="button" class="copiar" onclick="copiar()">Copiar Texto</button>
+                
+                </div>
+            </section>
+
+            <section class="bloque2">
+                <label for="texto-desencriptar">
+
+                    <input type="text" class="texto-desencriptar"  style="text-transform:lowercase;" value="" required placeholder= "Ingrese el texto que le gustaria Desencriptar">
+                    
+                </label>
+            </section>
+
+        </main>
+
+        <footer>
+
+            <p class="copyriht">&copy Derechos del "El mejor encriptador de Texto" - 2023</p>
+            <p>Turchi Franco Sebastian</p>
+            
+        </footer>
+
+    </body>
+
+    <script src="Programas Js/encriptar.js"></script>
+    <script src="Programas Js/desencriptar.js"></script>
+    <script src="Programas Js/copiar_texto.js"></script>
+
+</html>
